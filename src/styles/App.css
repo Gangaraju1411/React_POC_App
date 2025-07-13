@@ -6,7 +6,7 @@ body {
 
 .container {
   max-width: 800px;
-  height: 90vh; /* Use most of the vertical space */
+  height: 90vh;
   margin: auto;
   padding: 20px;
   background: white;
@@ -24,44 +24,18 @@ body {
   margin-top: 20px;
 }
 
-/* .header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin-bottom: 30px;
-  /* text-decoration-color: #dc3545; */
-/* }
-
-.logo {
-  height: 60px;
-  width: auto;
-} */
 .header {
   display: flex;
-  justify-content: space-between; /* center the heading */
+  justify-content: space-between;
   align-items: center;
   position: relative;
   margin-bottom: 20px;
-  /* gap: 10px; */
-  /* flex-wrap: wrap; */
 }
 
-/* .logo {
-  position: absolute;
-  left: 0;
-  height: 60px;
-  width: 80px;
-  object-fit: contain;
-
-  /* width: auto; */
-/* } */
-*/ .logo {
+.logo {
   position: absolute;
   height: 100px;
   width: auto;
-  /* max-height: 50%; Prevents it from going beyond its parent */
-  /* object-fit: contain; */
 }
 
 .title {
@@ -106,7 +80,6 @@ h1 {
   cursor: pointer;
   border-radius: 6px;
   align-self: center;
-  /* width: auto; */
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -128,21 +101,6 @@ h1 {
   border-radius: 8px;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* .contact-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 16px;
-  width: 250px;
-  border-radius: 8px;
-  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
-} */
 
 .card-buttons {
   margin-top: 10px;
